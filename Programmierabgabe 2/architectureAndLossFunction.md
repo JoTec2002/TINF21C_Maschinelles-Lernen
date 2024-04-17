@@ -24,3 +24,5 @@ Loss Funktion auch gleichzeitig der Bewertungsparameter nachdem das beste Modell
 Aktuell R2 Score um bestes Modell rauszufinden.
 
 Welcher Parameter der wichtigste (R2 Score, RMSE, MSE, MAPE)?
+
+Wie explizit soll Aufteilung angegeben werden?
