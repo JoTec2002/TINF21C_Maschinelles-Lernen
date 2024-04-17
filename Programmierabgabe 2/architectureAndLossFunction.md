@@ -17,3 +17,10 @@ Die MSE Loss-Funktion ist eine häufig verwendete Loss-Funktion, da sie die Gena
 Der Adam-Optimierer ist einer der beliebtesten Optimierer und bietet eine adaptive Lernrate. Er überzeugt durch seine Effizienz und minimale Speicheranforderungen und ist auch für Probleme mit großen Datensets gut geeignet. Durch die adaptive Skalierung seiner Lernraten eignet sich Adam gut für Modelle mit verrauschten Daten.
 
 Einer der wichtigsten Hyperparameter für die Nutzung des Adam-Optimizers ist die Learning-Rate, welche mittels Hyperparameter-Optimierung bestimmt wird.
+
+## Fragen:
+Aktuell Loss-Fuktion MSE
+Loss Funktion auch gleichzeitig der Bewertungsparameter nachdem das beste Modell in der Kreuzvalidierung ausgewählt wird?
+Aktuell R2 Score um bestes Modell rauszufinden.
+
+Welcher Parameter der wichtigste (R2 Score, RMSE, MSE, MAPE)?
