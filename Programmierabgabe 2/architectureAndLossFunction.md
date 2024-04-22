@@ -18,11 +18,8 @@ Der Adam-Optimierer ist einer der beliebtesten Optimierer und bietet eine adapti
 
 Einer der wichtigsten Hyperparameter für die Nutzung des Adam-Optimizers ist die Learning-Rate, welche mittels Hyperparameter-Optimierung bestimmt wird.
 
-## Fragen:
-Aktuell Loss-Fuktion MSE
-Loss Funktion auch gleichzeitig der Bewertungsparameter nachdem das beste Modell in der Kreuzvalidierung ausgewählt wird?
-Aktuell R2 Score um bestes Modell rauszufinden.
+## Vergleich klassisch mit Deep Learning:
+Klassisch: Schneller zu implementieren.
+Deep Learning: Deutlich längere Trainingszeiten (1 Minute klassisch vs 10 Minuten DL)
 
-Welcher Parameter der wichtigste (R2 Score, RMSE, MSE, MAPE)?
-
-Wie explizit soll Aufteilung angegeben werden?
+Vergleich: Klassisch liefert auf größerem Datensatz (Weiß) einen besseren R2 Score (0.49xxx klassisch, 0,32 DL). Bei kleinerem Datenset (Rot) nahezu identische Perfomance (0,39 klassisch vs 0,386 DL)
